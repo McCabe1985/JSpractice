@@ -1,4 +1,4 @@
-const diceRoll = () => Math.floor(Math.random()*10)+1;
+const diceRoll = Math.floor(Math.random()*10)+1;
 
 let player = {
     cunning: 0,
